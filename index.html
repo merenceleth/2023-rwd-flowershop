@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shion.</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- Google fonts : nunito sans, 400 + 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="top" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="">
+          <a class="navbar-brand navbar-logo" href="index.html">Shion</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="justify-content-end collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item text-center">
+              <a class="nav-link navbar-navlinks" href="shop.html">Shop</a>
+            </li>
+            <div class="nav-spacing">
+              <li class="nav-item text-center">
+                <a class="nav-link navbar-navlinks" href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </div>
+            <div class="row">
+              <div class="col">
+                <li class="nav-item text-end">
+                  <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                </li>
+              </div>
+              <div class="col">
+                <li class="nav-item text-center">
+                  <a class="nav-link" href="#"><i class="bi bi-heart"></i></a>
+                </li>
+              </div>
+              <div class="col">
+                <li class="nav-item text-start">
+                  <a class="nav-link" href="#"><i class="bi bi-bag"></i></a>
+                </li>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col d-none d-xl-block"></div>
+          <div class="col hero-content">
+            <span class="label-black">New in</span>
+            <div class="hero-title">
+              <h1>Minimal <br />blooms</h1>
+            </div>
+            <a class="btn-underline" href="shop.html">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New In section -->
+    <section class="new-in pb-45">
+      <div class="container">
+        <h1 class="new-in-title text-center">New in</h1>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          class="row row-cols-auto row-spacing d-flex justify-content-center"
+        >
+          <div class="col">
+            <img
+              class="img-size img-spacing row-cols-auto"
+              src="images/product-sunsetserenadetrio.jpg"
+            />
+          </div>
+          <div class="col p-5">
+            <h3>2023 S/S Fresh Flowers <br />Sunset Serenade Trio</h3>
+            <h3>$39.90</h3>
+            <p class="pb-45">A radiant trio of red, pink, and yellow blooms.</p>
+            <a href="#" class="btn-underline">Buy Now</a>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          class="row row-cols-auto row-spacing swap-row d-flex justify-content-center"
+        >
+          <div class="col swap-right p-5">
+            <h3>2023 S/S Fresh Flowers<br />Scarlet & Citrus</h3>
+            <h3>$39.90</h3>
+            <p class="pb-45">Graceful circles embrace a vibrant centerpiece.</p>
+            <a href="#" class="btn-underline">Buy Now</a>
+          </div>
+          <div class="col swap-left">
+            <img
+              class="img-size img-spacing"
+              src="images/product-sunsetserenadetrio.jpg"
+            />
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          class="row row-cols-auto row-spacing d-flex justify-content-center"
+        >
+          <div class="col">
+            <img
+              class="img-size img-spacing"
+              src="images/product-unisonofscarlet.jpg"
+            />
+          </div>
+          <div class="col p-5">
+            <h3>2023 S/S Fresh Flowers<br />Unison of Scarlet</h3>
+            <h3>$39.90</h3>
+            <p class="pb-45">
+              Artfully crafted trio, celebrating grace in symmetry.
+            </p>
+            <a href="#" class="btn-underline">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter section -->
+    <section data-aos="fade-up" data-aos-duration="900" class="newsletter">
+      <div class="container newsletter-container p-5">
+        <h1 class="pt-80 pb-25">Subscribe</h1>
+        <p>Sign up with your email address to receive news and updates.</p>
+        <div class="pb-80">
+          <form>
+            <input
+              class="newsletter-input"
+              type="email"
+              placeholder="Email address"
+              id="email"
+              name="email"
+            />
+            <input
+              type="submit"
+              class="btn-black btn-newsletter"
+              value="Sign up"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="900" class="container">
+        <p class="logo">Shion</p>
+        <div class="row row-cols-auto row-spacing">
+          <div class="col footer-col">
+            <a class="btn-underline display-block pb-28" href="index.html#top">
+              Back to top <i class="bi bi-arrow-up"></i>
+            </a>
+          </div>
+          <div class="col footer-col">
+            <a class="btn-underline display-block pb-28" href="shop.html"
+              >Shop</a
+            >
+          </div>
+          <div class="col footer-col pl-24 pr-24">
+            <a class="btn-underline display-block pb-28" href="contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <p class="pt-40 pb-76">&copy 2023 Lexi Tian. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
